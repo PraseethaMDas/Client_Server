@@ -9,5 +9,6 @@ import java.io.*;
     String str="",str2="";  
     while(!str.equals("stop")){  
     str=br.readLine();  
-    dout.writeUTF(str);  
+    dout.writeUTF(str); 
+ 
     dout.flush();   
