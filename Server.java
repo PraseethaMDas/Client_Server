@@ -17,8 +17,8 @@ class Server
 			str2=br.readLine();  
 			dout.writeUTF(str2);  
 			dout.flush();  
-		} 
-		din.close();  
+	} 
+	din.close();  
     	s.close();  
     	ss.close();  
 	}
